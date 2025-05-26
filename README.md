@@ -49,13 +49,7 @@ source venv/bin/activate
 ### 3. Instale as dependências
 
 ```bash
-pip install -r requirements.txt
-```
-
-> Caso não exista `requirements.txt`, crie com:
-
-```bash
-pip freeze > requirements.txt
+pip install cryptography
 ```
 
 ---
