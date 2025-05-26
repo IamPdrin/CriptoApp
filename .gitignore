@@ -1,0 +1,17 @@
+# Ignore o ambiente virtual
+venv/
+
+# Ignore arquivos temporários
+__pycache__/
+*.pyc
+
+# Ignore arquivos de configuração do VSCode, PyCharm etc.
+*.log
+*.sqlite3
+*.env
+
+# Ignore pastas de cache do Django
+db.sqlite3
+
+# Ignore arquivos estáticos coletados (em produção)
+staticfiles/
