@@ -21,26 +21,25 @@ Este é um projeto web criado com Django que permite criptografar e descriptogra
 
 ```bash
 git clone https://github.com/IamPdrin/CriptoApp.git
-cd criptoApp
 ```
 
 ---
 
 ### 2. Crie e ative o ambiente virtual
 
-```bash
+```cmd
 python -m venv venv
 ```
 
 #### • Windows:
 
-```bash
+```cmd
 venv\Scripts\activate
 ```
 
 #### • Mac/Linux:
 
-```bash
+```cmd
 source venv/bin/activate
 ```
 
@@ -48,7 +47,8 @@ source venv/bin/activate
 
 ### 3. Instale as dependências
 
-```bash
+```cmd
+pip install django
 pip install cryptography
 ```
 
@@ -56,7 +56,7 @@ pip install cryptography
 
 ### 4. Rode o servidor Django
 
-```bash
+```cmd
 python manage.py runserver
 ```
 
