@@ -20,8 +20,8 @@ Este é um projeto web criado com Django que permite criptografar e descriptogra
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/django-criptografia-aes.git
-cd django-criptografia-aes
+git clone https://github.com/IamPdrin/CriptoApp.git
+cd criptoApp
 ```
 
 ---
